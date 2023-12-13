@@ -1,8 +1,9 @@
 # Weakly Supervised Multimodal Affordance Grounding for Egocentric Images
 ## Paper
-**Weakly Supervised Multimodal Affordance Grounding for Egocentric Images(AAAI 2024)**
+》Weakly Supervised Multimodal Affordance Grounding for Egocentric Images(AAAI 2024)
 Link:
-**Appendix**
+
+》Appendix
 Link:
 
 ## Code
