@@ -12,7 +12,7 @@ Link:
 
 Link:
 
-<p align="center"><img src="images/pipelline1.pdf" align="center"> <br></p>
+<p align="center"><img src="images/pipelline.png" align="center"> <br></p>
 
 **Abstract:**
 
