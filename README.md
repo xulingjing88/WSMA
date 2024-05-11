@@ -2,7 +2,7 @@
 ## Paper
 >Weakly Supervised Multimodal Affordance Grounding for Egocentric Images(AAAI 2024)
  
-Link:
+Link: https://doi.org/10.1609/aaai.v38i6.28451
 
 >Appendix
   
@@ -11,5 +11,9 @@ Link:
 >Video
 
 Link:
-## Code
-PyTorch implementation of our paper's method is coming soon. The code includes both training and testing code.
+## Requirements
+We run in the following environment: 
+- A GeForce RTX 3090
+- Python(3.8)
+- Pytorch(1.10.0)
+
