@@ -6,11 +6,11 @@ Link: https://doi.org/10.1609/aaai.v38i6.28451
 
 >Appendix
   
-Link:
+Link: [Appendix.pdf](/docs)
 
 >Video
 
-Link:
+Link: [video.mp4](/docs)
 
 <p align="center"><img src="images/pipelline.png" align="center"> <br></p>
 
@@ -24,3 +24,13 @@ We run in the following environment:
 - Python(3.8)
 - Pytorch(1.10.0)
 
+## Required pre-trained models
+- model for Dino_vit
+- model for text_enconder(clip):You can find it [here](https://openaipublic.azureedge.net/clip/models/afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762/RN50.pt)
+
+## Start
+```bash
+git clone https://github.com/xulingjing88/WSMA.git
+cd WSMA
+python train.py
+```
