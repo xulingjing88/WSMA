@@ -8,10 +8,6 @@ Link: https://doi.org/10.1609/aaai.v38i6.28451
   
 Link: [Appendix.pdf](/docs)
 
->Video
-
-Link: [video.mp4](/docs)
-
 <p align="center"><img src="images/pipelline.png" align="center"> <br></p>
 
 **Abstract:**
