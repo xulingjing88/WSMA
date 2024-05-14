@@ -28,9 +28,15 @@ We run in the following environment:
 - model for Dino_vit
 - model for text_enconder(clip):You can find it [here](https://openaipublic.azureedge.net/clip/models/afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762/RN50.pt)
 
-## Start
+## Start Train
 ```bash
 git clone https://github.com/xulingjing88/WSMA.git
 cd WSMA
-python train.py
 ```
+Before training, you need to preprocess the data
+- Seen, Unseen(from AGD20K): You can find it [here](https://github.com/lhc1224/Cross-View-AG/tree/main/code/cvpr)
+- HICO-IIF: You can find it [here]()
+```bash
+python preprocessing.py
+```
+
