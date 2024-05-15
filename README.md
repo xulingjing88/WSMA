@@ -22,9 +22,9 @@ We run in the following environment:
 
 ## Required pre-trained models
 - model for Dino_vit
-- model for text_enconder(clip):You can find it [here](https://openaipublic.azureedge.net/clip/models/afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762/RN50.pt)
+- model for text_enconder(clip): You can find it [here](https://openaipublic.azureedge.net/clip/models/afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762/RN50.pt)
 
-## Start Train
+## Start
 ```bash
 git clone https://github.com/xulingjing88/WSMA.git
 cd WSMA
@@ -35,4 +35,11 @@ Before training, you need to preprocess the data
 ```bash
 python preprocessing.py
 ```
+Set **'data_root'** to the path of the dataset, **'divide'** to the dataset name (Seen or Unseen or HICO-IIF), and then you can start training by running train.py.
+```bash
+python train.py
+```
+
+## Acknowledgements
+We would like to express our gratitude to the following repositories for their contributions and inspirations: [Cross-View-AG](https://github.com/lhc1224/Cross-View-AG), [LOCATE](https://github.com/Reagan1311/LOCATE), [Dino](https://github.com/facebookresearch/dino), [CLIP](https://github.com/openai/CLIP).
 
