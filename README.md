@@ -16,12 +16,12 @@ To enhance the interaction between intelligent systems and the environment, loca
 
 ## Requirements
 We run in the following environment: 
-- A GeForce RTX 3090
+- A NVIDIA GeForce RTX 3090
 - Python(3.8)
 - Pytorch(1.10.0)
 
 ## Required pre-trained models
-- model for Dino_vit
+- model for Dino_vit(No need to download separately, the code is already included)
 - model for text_enconder(clip): You can find it [here](https://openaipublic.azureedge.net/clip/models/afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762/RN50.pt)
 
 ## Start
