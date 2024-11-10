@@ -31,7 +31,7 @@ cd WSMA
 ```
 Before training, you need to preprocess the data
 - Seen, Unseen(from AGD20K): You can find it [here](https://github.com/lhc1224/Cross-View-AG/tree/main/code/cvpr)
-- HICO-IIF: You can find it [here](https://pan.baidu.com/s/1imzN-mRaWLIyDLZ80NibxQ?pwd=c878)
+- HICO-IIF: You can find it [here](https://pan.baidu.com/s/1imzN-mRaWLIyDLZ80NibxQ?pwd=c878) or google cloud [here](https://drive.google.com/file/d/1InBbjM6Uo9HK8OKAuK7TZyvCFjSVKkfY/view?usp=drive_link)
 ```bash
 python preprocessing.py
 ```
